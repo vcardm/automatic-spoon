@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Payment">
+  <ClassDiagramComponents>
+    <Class name="Payment" package="" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="type" type="PaymentType" visibility="private"/>
+        <Field name="amount" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="PaymentType" name="type"/>
+          <Argument type="double" name="amount"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getType" returnType="PaymentType" visibility="public"/>
+        <Method name="setType" returnType="void" visibility="public">
+          <Argument type="PaymentType" name="type"/>
+        </Method>
+        <Method name="getAmount" returnType="double" visibility="public"/>
+        <Method name="setAmount" returnType="void" visibility="public">
+          <Argument type="double" name="amount"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="Payment" target="Payment" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
