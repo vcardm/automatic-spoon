@@ -1,2 +1,2 @@
-# automatic-spoon
-Cash Register
+# Cash Register
+
